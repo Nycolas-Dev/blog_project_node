@@ -1,0 +1,24 @@
+#cardComponent {
+  background-color: darkred;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#cardComponent a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#cardComponent button {
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+#cardComponent .btn-admin {
+  background-color: gray;
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+  

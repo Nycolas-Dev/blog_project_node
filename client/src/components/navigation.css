@@ -1,0 +1,24 @@
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 3em;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation a:hover {
+    color: darkred;    
+}
+
+#nav-display {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}

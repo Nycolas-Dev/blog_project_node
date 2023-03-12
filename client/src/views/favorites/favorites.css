@@ -1,0 +1,16 @@
+#favorites {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#display-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+#display-card > * {
+    flex-basis: calc(30% - 10px); /* 10px est la marge entre les éléments */
+    flex-grow: 1;
+    margin: 5px;
+}

@@ -1,0 +1,32 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#display-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+#display-card > * {
+    flex-basis: calc(30% - 10px); /* 10px est la marge entre les éléments */
+    flex-grow: 1;
+    margin: 5px;
+}
+
+#search-input {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  #search-input:focus {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+  }

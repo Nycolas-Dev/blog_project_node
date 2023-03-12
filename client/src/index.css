@@ -1,0 +1,12 @@
+:root {
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  background-color: black;
+
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+}

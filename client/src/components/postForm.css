@@ -1,0 +1,38 @@
+#form-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+#form-post div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+#form-post label {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  
+#form-post input {
+    padding: 0.5em;
+    font-size: 1.2em;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 100%;
+  }
+  
+#form-post button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
